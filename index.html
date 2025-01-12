@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing web design, development, and digital marketing expertise.">
+    <meta name="keywords" content="web design, development, portfolio, branding, SEO, UI/UX">
+    <meta name="author" content="Your Name">
+    <title>Your Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        h2,
+        h3,
+        h4 {
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #6200ea;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        /* About Section */
+        #about {
+            padding: 4rem 2rem;
+            background-color: #f9f9f9;
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 2rem;
+        }
+
+        .about-text {
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .about-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-text p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-text h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .about-text ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .about-text ul li {
+            font-size: 1.1rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Portfolio Section */
+        #portfolio {
+            padding: 4rem 2rem;
+            background-color: #fff;
+        }
+
+        .portfolio-item {
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 2rem;
+            width: 100%;
+            max-width: 350px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .portfolio-item h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .portfolio-item p {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+        }
+
+        .portfolio-item a {
+            font-weight: 600;
+            color: #2980b9;
+        }
+
+        .portfolio-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Form Section */
+        #contact {
+            padding: 4rem 2rem;
+            background-color: #f9f9f9;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact-form button {
+            background-color: #2980b9;
+            color: white;
+            padding: 1rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #3498db;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer a {
+            color: #ddd;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-img {
+                margin-bottom: 1rem;
+                width: 120px;
+                height: 120px;
+            }
+
+            .about-text h2 {
+                font-size: 2rem;
+            }
+
+            .portfolio-item {
+                width: 100%;
+                margin-bottom: 1.5rem;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                width: 100%;
+            }
+
+            footer {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>moses - Web Developer & Designer</h1>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-content">
+            <img src="c:\Users\USER\Downloads\kingbruze.jpg" alt="moses" class="profile-img">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello, I'm moses onderi, a passionate [Your Role]. With [X] years of experience in web development, design, and digital marketing, I specialize in creating intuitive and engaging websites and applications that help businesses grow. I am skilled in both front-end and back-end development and always strive to stay ahead of the latest trends.</p>
+                <h3>Skills & Services</h3>
+                <ul>
+                    <li>Web Design & Development</li>
+                    <li>UX/UI Design</li>
+                    <li>SEO Optimization</li>
+                    <li>Digital Marketing</li>
+                    <li>Branding & Strategy</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Work</h2>
+
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item">
+            <img src="c:\Users\USER\Downloads\Types-of-Web-Development-for-your-Project-768x389-1.webp" alt="Project 1">
+            <h3>Modern Design Agency</h3>
+            <p>A sleek and responsive website designed for a creative agency. Technologies used: HTML, CSS, JavaScript, React.</p>
+            <h4>Client Testimonial:</h4>
+            <p>"This project exceeded our expectations, and we saw a 40% increase in customer engagement!"</p>
+            <a href="#" target="_blank">View Website</a>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item">
+            <img src="c:\Users\USER\Downloads\images.jpg" alt="Project 2">
+            <h3>Photography Portfolio</h3>
+            <p>An elegant showcase of photography work with a minimalist style. Technologies used: HTML, CSS, JavaScript.</p>
+            <h4>Client Testimonial:</h4>
+            <p>"The portfolio looks stunning and is easy to navigate. We're thrilled with the outcome!"</p>
+            <a href="#" target="_blank">View Website</a>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="portfolio-item">
+            <img src="c:\Users\USER\Downloads\1688710312431.jpg" alt="Project 3">
+            <h3>E-Commerce Store</h3>
+            <p>A vibrant and user-friendly e-commerce platform for a clothing brand. Technologies used: HTML, CSS, Shopify, JavaScript.</p>
+            <h4>Client Testimonial:</h4>
+            <p>"Our sales have increased significantly, and customers love the easy checkout process."</p>
+            <a href="#" target="_blank">View Website</a>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you’d like to discuss a project or get in touch, feel free to send me a message!</p>
+        <form action="https://formspree.io/f/mayqnkyd" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Or you can reach me at: <a href="mailto:mosesonderi20@gmail.com">mosesonderi20@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/moses-onderi-b79185335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>, <a href="https://github.com/yourprofile" target="_blank">GitHub</a>, or <a href="https://twitter.com/kingjones6461" target="_blank">Twitter</a>.</p>
+    </footer>
+</body>
+
+</html>
